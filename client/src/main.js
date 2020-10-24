@@ -5,8 +5,12 @@ import App from './App'
 import router from './router'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import header from './components/header'
+import footer from './components/footer'
 
 Vue.config.productionTip = false
+Vue.component('my-header', header)
+Vue.component('my-footer', footer)
 
 /* eslint-disable no-new */
 new Vue({
