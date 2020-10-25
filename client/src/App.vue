@@ -1,6 +1,8 @@
 <template>
   <div id="app" class="container-fluid">
     <my-header/>
+    <side-nav/>
+    <slide-img/>
     <my-footer/>
   <router-view/>
   </div>

@@ -2,7 +2,7 @@
   <div id="header" class="container-fluid">
       <header>
           <p class="info">+88 013 5048 9022 &nbsp;&nbsp;&nbsp;&nbsp;haatprotidin@gmail.com</p>
-          <p class="info">Bookmark | Bangla</p>
+          <p class="info">Bookmark | বাংলা</p>
           <img src="../assets/logo.png" id="logo">
           <nav class="navbar navbar-default">
             <div class="container">
@@ -17,6 +17,7 @@
 export default {
     name: 'header'
 }
+
 </script>
 
 <style scoped>
@@ -32,7 +33,6 @@ export default {
   bottom: 0;
   width: 100%;
   font-weight: bold;
-  padding-bottom: 10px;
 }
 .info{
     color: white;

@@ -7,10 +7,14 @@ import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import header from './components/header'
 import footer from './components/footer'
+import SlideImg from './components/SlideImg'
+import SideNav from './components/SideNav'
 
 Vue.config.productionTip = false
 Vue.component('my-header', header)
 Vue.component('my-footer', footer)
+Vue.component('slide-img', SlideImg)
+Vue.component('side-nav', SideNav)
 
 /* eslint-disable no-new */
 new Vue({
