@@ -1,12 +1,12 @@
 <template>
-  <div class="container-fluid">
+  <div id="slider" class="container">
     <transition-group name="fade" tag="div">
       <div v-for="i in [currentIndex]" :key="i">
         <img :src="currentImg" />
       </div>
     </transition-group>
-    <a class="prev" @click="prev" href="#">&#10094; Previous</a>
-    <a class="next" @click="next" href="#">&#10095; Next</a>
+    <!-- <a class="prev" @click="prev" href="#">&#10094; Previous</a>
+    <a class="next" @click="next" href="#">&#10095; Next</a> -->
   </div>
 </template>
 
@@ -16,7 +16,7 @@ export default {
   data() {
     return {
       images: [
-        "https://cdn.pixabay.com/photo/2015/12/12/15/24/amsterdam-1089646_1280.jpg",
+        "https://scontent-dus1-1.xx.fbcdn.net/v/t1.0-9/118348381_10214569621989146_6023804019470881682_n.jpg?_nc_cat=106&ccb=2&_nc_sid=e3f864&_nc_eui2=AeH1Rt-KlKo7iQOjHYi6FXerw8BL3qsDe_jDwEveqwN7-BZ5yabyYnDAOx_RFxxzamU&_nc_ohc=jNwEiiTc6UAAX9WCjNE&_nc_ht=scontent-dus1-1.xx&oh=3b6511c49cc3f38fe9d13d3dc3d308a2&oe=5FCDE731",
         "https://cdn.pixabay.com/photo/2016/02/17/23/03/usa-1206240_1280.jpg",
         "https://cdn.pixabay.com/photo/2015/05/15/14/27/eiffel-tower-768501_1280.jpg",
         "https://cdn.pixabay.com/photo/2016/12/04/19/30/berlin-cathedral-1882397_1280.jpg"
@@ -52,26 +52,30 @@ export default {
 </script>
 
 <style scoped>
+#slider {
+  padding: relative;
+}
 .fade-enter-active,
 .fade-leave-active {
   transition: all 0.9s ease;
   overflow: hidden;
   visibility: visible;
   position: absolute;
-  width:100%;
+  width:70%;
   opacity: 1;
 }
 
 .fade-enter,
 .fade-leave-to {
   visibility: hidden;
-  width:100%;
+  width:50%;
   opacity: 0;
 }
 
 img {
-  height:600px;
-  width:100%
+  height:500px;
+  width:70%;
+  position: left;
 }
 
 .prev, .next {

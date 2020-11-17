@@ -9,13 +9,14 @@ import header from './components/header'
 import footer from './components/footer'
 import SlideImg from './components/SlideImg'
 import SideNav from './components/SideNav'
+import Grids from './components/Grids'
 
 Vue.config.productionTip = false
 Vue.component('my-header', header)
 Vue.component('my-footer', footer)
 Vue.component('slide-img', SlideImg)
 Vue.component('side-nav', SideNav)
-
+Vue.component('prod-list', Grids)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
