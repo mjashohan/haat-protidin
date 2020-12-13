@@ -7,16 +7,20 @@ import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import header from './components/header'
 import footer from './components/footer'
-import SlideImg from './components/SlideImg'
+import ImgCarousel from './components/ImgCarousel'
 import SideNav from './components/SideNav'
 import Grids from './components/Grids'
+import Carousel from './components/Carousel'
+import CarouselSlide from './components/CarouselSlide'
 
 Vue.config.productionTip = false
 Vue.component('my-header', header)
 Vue.component('my-footer', footer)
-Vue.component('slide-img', SlideImg)
+Vue.component('slide-img', ImgCarousel)
 Vue.component('side-nav', SideNav)
 Vue.component('prod-list', Grids)
+Vue.component('carousel', Carousel)
+Vue.component('carousel-slide', CarouselSlide)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
