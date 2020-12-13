@@ -12,6 +12,7 @@ import SideNav from './components/SideNav'
 import Grids from './components/Grids'
 import Carousel from './components/Carousel'
 import CarouselSlide from './components/CarouselSlide'
+import Advert from './components/Advert'
 
 Vue.config.productionTip = false
 Vue.component('my-header', header)
@@ -21,6 +22,7 @@ Vue.component('side-nav', SideNav)
 Vue.component('prod-list', Grids)
 Vue.component('carousel', Carousel)
 Vue.component('carousel-slide', CarouselSlide)
+Vue.component('advert', Advert)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

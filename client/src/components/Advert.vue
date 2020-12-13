@@ -3,7 +3,6 @@
       <div id="ad">
         <h1>AD</h1>
       </div>
-      
   </div>
 </template>
 
@@ -15,8 +14,18 @@ export default {
 </script>
 
 <style scoped>
-    #id{
+    #ad{
         border: 1px solid;
-        border-width: 100px;
+        height: 500px;
+        width: 90px;
+        background-color: black;
+        color: white;
+        opacity: 0.8;
+        overflow: hidden;
+        float: right;
+        display: block;
+    }
+    h1{
+      text-align: center;
     }
 </style>

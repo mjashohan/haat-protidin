@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        <advert/>
         <carousel>
             <carousel-slide v-for="slide in slides" :key="slide" class="carousel-slider">
                 <img :src="slide" :alt="slide">
@@ -9,7 +10,9 @@
 </template>
 
 <script>
+import Advert from './Advert.vue'
 export default {
+  components: { Advert },
     name: "ImgCarousel",
     data(){
         return {

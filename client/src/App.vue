@@ -2,6 +2,7 @@
   <div id="app" class="container-fluid">
     <my-header/>
     <side-nav/>
+    
     <div style="padding-left:120px">  
       <slide-img/>
     </div>
