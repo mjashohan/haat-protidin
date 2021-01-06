@@ -4,6 +4,7 @@
   "description": "The Backend for Haat Protidin",
   "main": "index.js",
   "scripts": {
+    "start": "node node_modules/nodemon/bin/nodemon.js src/app.js --exec",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/mjashohan/haat-protidin#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.6"
