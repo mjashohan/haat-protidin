@@ -2,8 +2,8 @@
   <div id="app" class="container-fluid">
     <my-header/>
     <side-nav/>
-    
-    <div style="padding-left:120px">  
+    <search-bar></search-bar>
+    <div style="padding-left:150px">
       <slide-img/>
     </div>
     <prod-list/>

@@ -13,6 +13,7 @@ import Grids from './components/Grids'
 import Carousel from './components/Carousel'
 import CarouselSlide from './components/CarouselSlide'
 import Advert from './components/Advert'
+import SearchBar from './components/SearchBar'
 
 Vue.config.productionTip = false
 Vue.component('my-header', header)
@@ -23,6 +24,7 @@ Vue.component('prod-list', Grids)
 Vue.component('carousel', Carousel)
 Vue.component('carousel-slide', CarouselSlide)
 Vue.component('advert', Advert)
+Vue.component('search-bar', SearchBar)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
