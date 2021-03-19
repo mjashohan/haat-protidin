@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Message from '@/components/Message'
 import Home from '@/components/Home'
+import Retailer from "../components/Retailer";
 
 Vue.use(Router)
 
@@ -13,9 +13,9 @@ export default new Router({
       component: Home
     },
     {
-      path: '/test',
-      name: 'Message',
-      component: Message
+      path: '/retailer',
+      name: 'Retailer',
+      component: Retailer
     }
   ]
 })

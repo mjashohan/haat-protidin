@@ -14,6 +14,9 @@ import Carousel from './components/Carousel'
 import CarouselSlide from './components/CarouselSlide'
 import Advert from './components/Advert'
 import SearchBar from './components/SearchBar'
+import {sync} from 'vuex-router-sync'
+import Vuetify from 'vuetify'
+import store from '@/store/store'
 
 Vue.config.productionTip = false
 Vue.component('my-header', header)
@@ -25,10 +28,13 @@ Vue.component('carousel', Carousel)
 Vue.component('carousel-slide', CarouselSlide)
 Vue.component('advert', Advert)
 Vue.component('search-bar', SearchBar)
+Vue.use(Vuetify)
+sync(store, router)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })

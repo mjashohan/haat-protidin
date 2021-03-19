@@ -1,13 +1,5 @@
 <template>
   <div id="app" class="container-fluid">
-    <my-header/>
-    <side-nav/>
-    <search-bar></search-bar>
-    <div style="padding-left:150px">
-      <slide-img/>
-    </div>
-    <prod-list/>
-    <my-footer/>
   <router-view/>
   </div>
 </template>

@@ -6,7 +6,7 @@
           <img src="../assets/logo.png" id="logo">
           <nav class="navbar navbar-default">
             <div class="container">
-                <a href="/">Home</a> <a href="#">Retailer</a> <a href="#">Wholeseller</a> <a href="#">Manufacturer</a> <a href="#">Get App</a>
+                <a href="/">Home</a> <a href="#/retailer">Retailer</a> <a href="#">Wholeseller</a> <a href="#">Manufacturer</a> <a href="#">Get App</a>
                 <!-- <router-link class="route" to="/" exact>Home</router-link> <router-link class="route" to="/">Retailer</router-link> <router-link class="route" to="/" exact>Wholeseller</router-link> <router-link class="route" to="/" exact>Manufacturer</router-link> <router-link class="route" to="/" exact>Get App</router-link> -->
             </div>
           </nav>
@@ -46,7 +46,7 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
   border-radius: 5px;
-  font-size: 16;
+  font-size: 16px;
 }
 
 a:hover, a:active {
