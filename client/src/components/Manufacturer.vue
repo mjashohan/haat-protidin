@@ -5,7 +5,7 @@
     <div id="login">
       <h2>GROW YOUR BUSINESS WITH US</h2>
       <div class="others">
-        <v-btn color="#ef5023" style="color:white;width: 40%;border-radius: 5px; padding: 15px;text-decoration: none" href="#"><strong>REGISTER AS A MANUFACTURER</strong></v-btn><br><br><br>
+        <v-btn color="#ef5023" style="color:white;width: 40%;border-radius: 5px; padding: 15px;text-decoration: none" href="#/ManufRegister"><strong>REGISTER AS A MANUFACTURER</strong></v-btn><br><br><br>
         <v-btn color="#ef5023" style="color:white;width: 30%;border-radius: 5px; padding: 15px;text-decoration: none" href="#"><strong>RENEW</strong></v-btn>
       </div>
       <div id="manLog">

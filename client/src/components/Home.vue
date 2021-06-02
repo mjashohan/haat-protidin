@@ -2,10 +2,12 @@
   <div class="container-fluid">
     <my-header/>
     <side-nav/>
-    <search-bar></search-bar>
-    <div style="padding-left:150px">
-      <slide-img/>
+    <div style="width: 20%">
+    <search-bar/>
     </div>
+  <div style="padding-left:150px">
+      <slide-img/>
+   </div>
     <prod-list/>
     <my-footer/>
 

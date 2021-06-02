@@ -2,8 +2,11 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Retailer from "../components/Retailer"
-import Wholeseller from "../components/Wholeseller"
+import Wholesaler from "../components/Wholesaler"
 import Manufacturer from "../components/Manufacturer"
+import RetailRegister from "../components/RetailRegister"
+import WholeRegister from "../components/WholeRegister"
+import ManufRegister from "../components/ManufRegister"
 
 Vue.use(Router)
 
@@ -20,14 +23,29 @@ export default new Router({
       component: Retailer
     },
     {
-      path: '/wholeseller',
-      name: 'Wholeseller',
-      component: Wholeseller
+      path: '/wholesaler',
+      name: 'Wholesaler',
+      component: Wholesaler
     },
     {
       path: '/manufacturer',
       name: 'Manufacturer',
       component: Manufacturer
+    },
+    {
+      path: '/RetailRegister',
+      name: 'RetailRegister',
+      component: RetailRegister
+    },
+    {
+      path: '/WholeRegister',
+      name: 'WholeRegister',
+      component: WholeRegister
+    },
+    {
+      path: '/ManufRegister',
+      name: 'ManufRegister',
+      component: ManufRegister
     }
   ]
 })

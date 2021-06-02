@@ -3,10 +3,14 @@
     <form action="">
       <input type="text" placeholder="Search.." name="search">
       <button type="submit"><i class="fa fa-search"></i></button>
-      <ul id="theMenu">
+    <!--  <ul id="theMenu">
         <li>Categories</li>
         <li>Location</li>
-      </ul>
+      </ul> -->
+      <div id="theMenu">
+        <button type="submit">Categories</button><br>
+        <button type="submit">Location</button>
+      </div>
     </form>
   </div>
 </template>
@@ -18,21 +22,22 @@ name: "SearchBar"
 </script>
 
 <style scoped>
-  #theMenu{
+ /** #theMenu button{
     color: #ef5023;
     text-decoration: none;
     list-style-type: none;
     padding: 0;
     margin: 0;
     font-weight: bolder;
-  }
-  #theMenu li:hover{
+  } **/
+  #theMenu button{
     padding: 5px;
     text-decoration: none;
     background-color: #ef5023;
     color: white;
     font-weight: bolder;
-    display: block
+    width: 80%;
+    border-radius: 10px;
   }
   .search-container{
     float: left;
