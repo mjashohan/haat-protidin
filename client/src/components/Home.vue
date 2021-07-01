@@ -3,7 +3,7 @@
     <my-header/>
     <side-nav/>
     <div style="width: 20%">
-    <search-bar/>
+      <search-bar/>
     </div>
   <div style="padding-left:150px">
       <slide-img/>
